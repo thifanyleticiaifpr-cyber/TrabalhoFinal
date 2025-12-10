@@ -1,22 +1,65 @@
-body{
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #bb1eff;
-    color: #fff;
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  background: #95b8ff;
+  color: #222;
+  padding: 24px;
 }
 
-.cadsalario{
-    background-color: #25beff;
-    color: rgb(0, 0, 0);
+h2 {
+  text-align: center;
+  margin-bottom: 12px;
+  color: #2b4266;
 }
 
-.listadespesa{
-    background-color: #ff0000;
-    color: aqua;
 
+#cadastro {
+  margin: 0 auto;
+  padding: 18px;
+  background: #ffffff;
+  border-radius: 10px;
 }
-.resumo{
-    background-color: #ff0000;
-    color: aqua;
+
+
+label {
+  color: #334e6a;
+  font-size: 0.95rem;
+}
+
+
+#listadespesa {
+  margin: 18px auto 0;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e6eef8;
+}
+
+#output {
+  list-style: none;
+  margin-top: 12px;
+}
+
+#output li {
+  padding: 10px;
+  border: 1px solid #eef6ff;
+  background: #fbfdff;
+  font-size: 0.98rem;
+}
+
+
+#boxresumo {
+  max-width: 900px;
+  margin: 12px auto 40px;
+}
+
+#resumo {
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #e6eef8;
+  border-radius: 10px;
+}
+
+#resumo p {
+  margin: 8px 0;
+  font-weight: 600;
 }
