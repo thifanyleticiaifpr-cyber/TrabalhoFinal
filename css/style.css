@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #bb1eff;
+    color: #fff;
+
+}
+
+.cadsalario{
+    background-color: #25beff;
+    color: rgb(0, 0, 0);
+}
+
+.listadespesa{
+    background-color: #ff0000;
+    color: aqua;
+
+}
+.resumo{
+    background-color: #ff0000;
+    color: aqua;
+}
