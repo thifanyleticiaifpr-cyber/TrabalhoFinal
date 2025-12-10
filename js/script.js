@@ -46,6 +46,12 @@ function salvar(){ //salvar o salario
 
 
 function deletar(){ //a função deletar vai apagar todas as despesas
+    var listadespesa = JSON.parse(localStorage.getItem('listagem')); //pega a lista de despesas do LocalStorage
+    if(!listadespesa || listadespesa.length === 0){ //verifica se não tem nada
+        alert("Não há despesas para deletar")
+        return 
+    }
+
     localStorage.removeItem('listagem') //LocalStorage vai remover o item listagem onde estão sendo salvas as despesas
     exibir()
     resumoFinanceiro()
